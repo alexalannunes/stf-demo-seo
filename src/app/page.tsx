@@ -69,7 +69,7 @@ export default function Home() {
           href="https://pt.wikipedia.org/wiki/Supremo_Tribunal_Federal"
           className="block text-sky-500 border-current font-semibold dark:text-sky-400 text-2xl"
         >
-          Saiba mais em Wikipédia
+          Saiba mais na Wikipédia
         </a>
       </section>
     </main>

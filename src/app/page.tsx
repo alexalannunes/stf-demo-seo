@@ -57,7 +57,7 @@ export default function Home() {
             className="rounded-2xl shadow-2xl"
             width={800}
             height={500}
-            src={"/Supremo_brasil.jpg"}
+            src={"/Supremo_Brasil.jpg"}
             alt="Supremo Tribunal Federal"
           />
         </div>

@@ -22,8 +22,12 @@ export default function RootLayout({
         name="google-site-verification"
         content="aEdmSv4Liad52ujAs70aLu_5IVpNmPWCcRTuAj34SjQ"
       />
-      <GoogleAnalytics />
-      <body className={inter.className}>{children}</body>
+
+      <body className={inter.className}>
+        {children}
+        {/* https://medium.com/readytowork-org/google-analytics-in-next-js-a26cc2b28db5 */}
+        <GoogleAnalytics />
+      </body>
     </html>
   );
 }

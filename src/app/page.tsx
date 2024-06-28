@@ -1,3 +1,4 @@
+import { WikipediaLink } from "@/wikipedia-link";
 import Image from "next/image";
 
 export default function Home() {
@@ -64,13 +65,7 @@ export default function Home() {
       </section>
       <section className="mt-20 pb-20 flex items-center justify-center">
         {/* put click event here */}
-        <a
-          target="_blank"
-          href="https://pt.wikipedia.org/wiki/Supremo_Tribunal_Federal"
-          className="block text-sky-500 border-current font-semibold dark:text-sky-400 text-2xl"
-        >
-          Saiba mais na Wikipédia
-        </a>
+        <WikipediaLink />
       </section>
     </main>
   );

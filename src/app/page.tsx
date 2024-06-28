@@ -1,4 +1,4 @@
-import { WikipediaLink } from "@/wikipedia-link";
+import { WikipediaLink } from "@/components/wikipedia-link";
 import Image from "next/image";
 
 export default function Home() {

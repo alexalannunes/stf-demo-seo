@@ -9,7 +9,6 @@ export function WikipediaLink() {
         (window as any).gtag("event", "goto_wikipedia", {
           event_category: "redirect",
           event_label: "goto_wikipedia",
-          value: "click",
         });
       }}
     >

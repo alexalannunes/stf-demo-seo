@@ -2,7 +2,7 @@ import Image from "next/image";
 
 export default function Home() {
   return (
-    <main className="w-[1024px] h-[100%] mx-auto px-10 pt-10">
+    <main className="sm:container mx-auto h-[100vh] px-10 lg:w-[1020px] pt-10">
       <div className="flex justify-between items-center">
         <h1 className="text-2xl font-semibold">Supremo Tribunal Federal</h1>
         <Image src="/brazil.svg" width={100} height={100} alt="Brasil" />
@@ -62,7 +62,7 @@ export default function Home() {
           />
         </div>
       </section>
-      <section className="mt-20 mb-28 flex items-center justify-center">
+      <section className="mt-20 pb-20 flex items-center justify-center">
         {/* put click event here */}
         <a
           target="_blank"
